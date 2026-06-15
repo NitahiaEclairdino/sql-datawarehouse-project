@@ -1,15 +1,15 @@
-#Data warehouse and Analytics Project
-
-Welcome to the **Data warehouse and Analytics Project** repository!🚀 <br>
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+**Data warehouse and Analytics Project**
 ---
+Welcome to the **Data warehouse and Analytics Project** repository !🚀 <br>
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+
 
 🏗️ Data Architecture <br>
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
-![Here is an overview of my architecture drawn using draw.io](architecture.drawio.png)
-Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into Snowflake Database.
-Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+![Here is an overview of my architecture drawn using draw.io](architecture.drawio.png)<br>
+**Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into Snowflake Database.<br>
+**Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.<br>
+**Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.<br>
 
 ---
 📖 Project Overview<br>
@@ -33,27 +33,27 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 .Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.<br>
 
 ---
-📂 Repository Structure
-data-warehouse-project/
+📂 Repository Structure<br>
+data-warehouse-project/<br>
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/&nbsp;&nbsp;&nbsp;&nbsp;   # Raw datasets used for the project (ERP and CRM data)<br>
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── docs/&nbsp;&nbsp;&nbsp;&nbsp;                             # Project documentation and architecture details<br>
+│   ├── etl.drawio&nbsp;&nbsp;&nbsp;&nbsp;                     # Draw.io file shows all different techniquies and methods of ETL<br>
+│   ├── data_architecture.drawio&nbsp;&nbsp;&nbsp;&nbsp;       # Draw.io file shows the project's architecture<br>
+│   ├── data_catalog.md&nbsp;&nbsp;&nbsp;&nbsp;                # Catalog of datasets, including field descriptions and metadata<br>
+│   ├── data_flow.drawio&nbsp;&nbsp;&nbsp;&nbsp;                # Draw.io file for the data flow diagram<br>
+│   ├── data_models.drawio&nbsp;&nbsp;&nbsp;&nbsp;              # Draw.io file for data models (star schema)<br>
+│   ├── naming-conventions.md&nbsp;&nbsp;&nbsp;&nbsp;           # Consistent naming guidelines for tables, columns, and files<br>
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/&nbsp;&nbsp;&nbsp;&nbsp;                            # SQL scripts for ETL and transformations<br>
+│   ├── bronze/&nbsp;&nbsp;&nbsp;&nbsp;                         # Scripts for extracting and loading raw data<br>
+│   ├── silver/&nbsp;&nbsp;&nbsp;&nbsp;                         # Scripts for cleaning and transforming data<br>
+│   ├── gold/&nbsp;&nbsp;&nbsp;&nbsp;                           # Scripts for creating analytical models<br>
 │
-├── tests/                              # Test scripts and quality files
+├── tests/&nbsp;&nbsp;&nbsp;&nbsp;                              # Test scripts and quality files<br>
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+├── README.md&nbsp;&nbsp;&nbsp;&nbsp;                          # Project overview and instructions<br>
+├── LICENSE&nbsp;&nbsp;&nbsp;&nbsp;                            # License information for the repository<br>
+├── .gitignore&nbsp;&nbsp;&nbsp;&nbsp;                         # Files and directories to be ignored by Git<br>
+└── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;                    # Dependencies and requirements for the project<br>
