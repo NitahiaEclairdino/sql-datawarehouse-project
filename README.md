@@ -57,3 +57,11 @@ data-warehouse-project/<br>
 ├── LICENSE&nbsp;&nbsp;&nbsp;&nbsp;                            # License information for the repository<br>
 ├── .gitignore&nbsp;&nbsp;&nbsp;&nbsp;                         # Files and directories to be ignored by Git<br>
 └── requirements.txt&nbsp;&nbsp;&nbsp;&nbsp;                    # Dependencies and requirements for the project<br>
+
+---
+🛡️ License <br>
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution. This project is inspired by "Data with Baraa" Tutorial <br>
+
+---
+🌟 About Me <br>
+Hi everyone! My name is BE-ANJARAKO Nitahia Eclairdino, also known as "Eclair". I'm a student and passionate about data science.
